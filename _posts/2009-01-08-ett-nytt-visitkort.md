@@ -11,6 +11,4 @@ Allt som allt är mina kort kanske inget som Patrick Bateman skulle vilja kopier
 
 <img class="alignnone size-full wp-image-157" title="Visitkortets framsida" src="http://utmaningen.fjeldstad.se/wp-content/uploads/2009/01/img_08032.jpg" alt="Visitkortets framsida" width="500" height="375" />
 
- 
-
 <img class="alignnone size-full wp-image-154" title="Visitkortets baksida" src="http://utmaningen.fjeldstad.se/wp-content/uploads/2009/01/img_08051.jpg" alt="Visitkortets baksida" width="500" height="375" />
