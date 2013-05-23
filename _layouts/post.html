@@ -11,7 +11,7 @@ layout: default
         <div class="main">
             <div class="post">
                 <h2><a href="{{page.url}}">{{page.title}}</a></h2>
-                <p class="meta">Publicerat {{ post.date | date: "%Y-%m-%d" }}</p>
+                <p class="meta">Publicerat {{ page.date | date: "%Y-%m-%d" }}</p>
                 <div class="entry">
                     {{page.content}}
                 </div>
