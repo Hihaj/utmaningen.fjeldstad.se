@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Recension: The 4-Hour Workweek
+title: "Recension: The 4-Hour Workweek"
 date: 2008-09-22 13:37
 comments: true
 categories: []

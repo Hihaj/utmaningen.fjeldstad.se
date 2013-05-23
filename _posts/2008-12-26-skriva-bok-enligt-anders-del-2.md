@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Skriva bok enligt Anders: del 2
+title: "Skriva bok enligt Anders: del 2"
 date: 2008-12-26 18:35
 comments: true
 categories: []
