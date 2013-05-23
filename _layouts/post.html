@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div id="pageSpot">
+    <div id="spot" class="clearAfter">
+        <div class="main"></div>
+    </div>
+</div>
+<div id="pageContent">  
+    <div id="content" class="clearAfter">
+        <div class="main">
+            <div class="post">
+                <h2><a href="{{page.url}}">{{page.title}}</a></h2>
+                <p class="meta">{{ post.date | date: "%d %B %Y" }}</p>
+                <div class="entry">
+                    {{page.content}}
+                </div>
+            </div>
+        </div>
+        <div class="sidebarArea clearAfter"></div>
+    </div>
+</div>

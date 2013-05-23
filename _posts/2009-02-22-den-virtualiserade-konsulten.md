@@ -1,0 +1,16 @@
+---
+layout: post
+title: Den virtualiserade konsulten
+date: 2009-02-22 21:43
+comments: true
+categories: []
+---
+När man jobbar som konsult hamnar man per definition på lite olika ställen, och det är inte ovanligt att man sitter ett par dagar hos en kund och sedan resten av veckan någonannanstans. Så länge man har en bärbar dator är det ju inga problem kan man tycka, men om man jobbar med utveckling behöver man ofta komma åt kundens interna nätverk, källkodsserver och så vidare. Förutsatt att kunden arbetar i en Windowsmiljö så får man då typiskt ett domänkonto, precis som de fast anställda fast troligen med lite snävare säkerhetsrestriktioner. Om man låter datorn gå med i kundens domän kan man sedan logga in på datorn med domänkontot, och så får man tillgång till nätverket och de resurser som kontot har rättigheter till.
+
+Men hur blir det då när man packar ihop sina prylar och går till nästa kund? Att hålla på och flytta datorn mellan domäner är inte ett särskilt vettigt alternativ, särskilt inte om man måste vara inloggad som sin egen företagsanvändare för att få tillgång till det egna företagets resurser. Det är en möjlighet att kunden kan tillhandahålla en dator som man använder när man sitter hos det företaget och jobbar. Under längre uppdrag eller om kunden vill ha fysisk kontroll över de filer man arbetar på är det nog den smartaste lösningen. Då jobbar man på kunddatorn och kan använda sin egen (utanför kundens nätverk) till att kolla sin företagsmail och liknande.
+
+Om kunden inte vill eller kan stå för arbetsdator är <em>virtualisering </em>ett alternativ, och något som jag själv har bestämt mig för att testa. Det går ut på att man skapar en <em>virtuell maskin </em>eller <em>image</em> som körs inuti det vanliga operativsystemet med hjälp av en särskild programvara. Effekten blir att man startar upp ett isolerat Windows (eller Linux, Mac OS eller något helt annat) i ett fönster i datorn, för att uttrycka det enkelt. Den virtuella maskinen får tillgång till de hårdvaruresurser man väljer att låta den se, exempelvis nätverkskort och DVD-läsare. Man tilldelar en viss mängd RAM-minne och hårddisk, och sedan är det bara att installera de program man vill ha på den, som om den vore en vanlig dator. Den virtuella maskinen kan sedan anslutas till kundens domän, och så använder man det av kunden tillhandahållna domänkontot för att logga in, så blir det som om man hade haft en separat dator på kundens nätverk. När man avslutar för dagen stänger man den virtuella maskinen som vilket annat program som helst, och nästa gång man startar upp den fortsätter man där man slutade.
+
+Jag köpte för några veckor sedan VMware Workstation, som är en virutaliseringsprogramvara med gott rykte för Windows. Den kostade inte särskilt mycket heller (cirka 1600 kr plus moms) med tanke på vilket värde den tillför om jag får allt att fungera som jag vill. Att enkelt kunna byta mellan kundspecifika, isolerade miljöer är smidigt för mig och dessutom ökar säkerheten mot kund, eftersom den "dator" som ansluts till kundnätverket kan anpassas för att uppfylla eventuella säkerhetspolicies och liknande.
+
+Just i detta nu sitter jag och förbereder en virtuell maskin som jag tänkte börja använda på ett av mina uppdrag ute hos en kund imorgon. Det ska bli spännande att se hur det funkar. Jag är optimistisk.

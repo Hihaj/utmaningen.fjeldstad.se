@@ -1,0 +1,425 @@
+/*
+Theme Name: Hihaj Challenge
+Theme URI: http://www.hihaj.se
+Description: This is the Hihaj Challenge theme.
+Version: 1.0
+Author: Anders Fjeldstad
+Author URI: http://www.fjeldstad.se
+Tags: blue, fixed width, three columns, widgets
+*/
+
+/* Containers
+*******************************************************************************/
+html {
+	background-color: #0c2a47;
+}
+
+body {
+	background-color: #164775;
+}
+
+div.floatLeft {
+	display: inline;
+	float: left;
+	width: auto;
+}
+
+div.floatRight {
+	display: inline;
+	float: right;
+	width: auto;	
+}
+
+div.clearAfter {
+	overflow: hidden;
+	height: 1%;
+}
+
+div#header,
+div#spot,
+div#content,
+div#footer {
+	width: 900px;
+	margin: 0px auto 0px auto;	
+	border: 5px solid #ffffff;
+	border-top: 0;
+	border-bottom: 0;
+}
+
+div.main {
+	display: inline;
+	float: left;
+	width: 510px;
+	padding: 20px;
+}
+
+div.sidebarArea {
+	display: inline;
+	float: right;
+	width: 310px;
+	padding: 20px;	
+}
+
+div.sidebar {
+	float: left;
+	display: inline;
+	width: 145px;
+	margin: 0 20px 20px 0;
+}
+
+div#pageHeader {
+	background-color: #a4d0f9;
+}
+
+div#header {
+	background-image: url('images/corporate.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+div#pageSpot {
+	background-color: #5092d1;
+}
+
+div#spot {
+	
+}
+
+div#pageContent {
+	background-color: #164775;
+}
+
+div#content {
+	background-image: url('images/contentBackground.gif');
+	background-repeat: repeat-y;
+}
+
+div#content div.main {
+	background-color: #ffffff;
+	width: 505px;
+	padding-right: 25px;
+}
+
+div#content div.sidebarArea {
+	background-color: #164775;	
+}
+
+div#pageFooter {
+	background-color: #0c2a47;
+}
+
+div#footer {
+	/*background-color: #0c2a47;*/
+	background-color: #051626;
+	border: 5px solid #051626;
+	border-top: 0;
+	padding: 15px 0 100px 0;
+}
+
+div.post {
+	border-bottom: 1px solid #000000;	
+}
+
+div.postMeta {
+	border: 1px solid #cccccc;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	background-color: #eeeeee;
+	line-height: 1em;
+}
+
+div.comments {
+	background-color: #e6f3ff;	
+	padding: 5px 10px;
+}
+
+ 
+/* Headers
+*******************************************************************************/
+h1 {
+	font-size: 364%;
+	font-family: "Arial Black";
+	color: #ffffff;	
+	margin: 0;
+	line-height: 1em;
+}
+
+div#spot h2 {
+	font-family: Georgia;
+	font-size: 108%;
+	font-weight: bold;
+	line-height: 1.4em;
+	color: #ffffff;	
+	margin: 0 0 15px 0;
+}
+
+h2 {
+	font-family: Georgia;
+	font-size: 138.5%;
+	font-weight: normal;
+	line-height: 1.1em;
+	margin: 1em 0 0 0;
+}
+
+h2.archive {
+	margin: 0 0 15px 0;
+	padding: 5px;
+	font-family: Verdana;
+	font-size: 85%;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1em;
+	background-color: #a4d0f9;
+}
+
+div.sidebar h2,
+div#pageSpot div.sidebarArea h2 {
+	font-family: "Trebuchet MS";
+	font-size: 108%;
+	font-weight: bold;
+	line-height: 1em;
+	color: #a4d0f9;
+	padding-bottom: 5px;
+	margin-top: 0;
+	margin-bottom: 5px;
+	border-bottom: 2px dotted #a4d0f9;
+}
+
+div#pageSpot div.sidebarArea h2 {
+	color: #ffffff;
+	border-color: #ffffff;	
+}
+
+h3 {
+	font-family: Georgia;
+	font-size: 108%;
+	line-height: 1.1em;
+	font-weight: bold;	
+	margin: 10px 0 5px 0;
+}
+
+h6 {
+	font-family: Verdana;
+	font-size: 77%;
+	font-weight: bold;	
+	margin: 5px 0 2px 0;
+}
+
+div.comments h6 {
+	margin: 0;
+}
+
+
+/* Text and paragraphs
+*******************************************************************************/
+p {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Tahoma, Verdana, Arial, sans-serif;;
+	font-size: 85%;
+	line-height: 1.7em;
+	margin: 0 0 1.3em 0;
+	text-align: justify;
+}
+
+p#blogDescription {
+	margin: 10px 0 0 0;
+	font-family: Georgia;
+	font-size: 85%;
+	font-weight: bold;
+	line-height: 1em;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+div#spot p {
+	font-family: Georgia;
+	font-size: 100%;
+	line-height: 1.5em;
+	color: #ffffff;
+	margin: 0 0 15px 0;	
+}
+
+div.post p.meta {
+	font-family: Arial;
+	font-size: 85%;
+	line-height: 1.3em;
+	color: #999999;
+	margin: 2px 0 10px 0;
+}
+
+div.comments li p {
+	margin: 0.3em 0 0 0;
+	text-align: left;
+}
+
+blockquote {
+	background-color: #e6f3ff;
+	padding: 1.3em 1.3em 0.1em 1.3em;
+	margin-bottom: 1.3em;
+}
+
+div#footer p {
+	color: #ffffff;	
+	padding: 0 15px 0 15px;
+}
+
+strong {
+	font-weight: bold;	
+}
+
+em {
+	font-style: italic;	
+}
+
+
+/* Links
+*******************************************************************************/
+a {
+	color: #5092d1;
+	text-decoration: none;	
+}
+
+a:hover {
+	background-color: #d0e8ff;	
+}
+
+h1 a, 
+h1 a:hover {
+	color: #ffffff;		
+	background-color: transparent;
+}
+
+a.more-link {
+	font-family: Verdana;
+	font-size: 93%;
+	font-weight: bold;
+}
+
+div.sidebar li li a {
+	display: block;
+	width: auto;
+	color: #a4d0f9;
+	height: 1.5em;
+}
+
+div.sidebar li li a:hover {
+	background-color: #0d3860;
+}
+
+div#pageSpot div.sidebarArea li a {
+	display: block;
+	width: auto;
+	height: 1.5em;
+	color: #ffffff;
+}
+
+div#pageSpot div.sidebarArea li a:hover {
+	color: #ffffff;
+	background-color: #4983bb;
+}
+
+/* Images
+*******************************************************************************/
+div.comments li img {
+	display: inline;
+	float: left;	
+	margin: 0 6px 3px 0;
+}
+
+div.comments li img.avatar-default {
+	display: none;
+}
+
+/* Lists
+*******************************************************************************/
+div.entry ul, 
+div.entry ul li {
+	list-style: disc outside;
+}
+
+div.entry ol, 
+div.entry ol li {
+	list-style: decimal outside;
+}
+
+div.entry ul, 
+div.entry ol {
+	margin-bottom: 1.3em;
+	margin-left: 1.5em;
+}
+
+div.entry li {
+	font-family: "Lucida Sans Unicode";
+	font-size: 85%;
+	line-height: 1.7em;
+}
+
+div.entry ol {
+	margin-bottom: 1.3em;
+}
+
+div.sidebar ul,
+div#pageSpot div.sidebarArea ul {
+	margin: 0;
+	padding: 0;	
+}
+
+div.sidebar li,
+div#pageSpot div.sidebarArea li {
+	height: 1%;	
+}
+
+div.sidebar li li,
+div#pageSpot div.sidebarArea li {
+	font-family: Verdana;
+	font-size: 85%;
+	color: #a4d0f9;
+	line-height: 1.5em;
+}
+
+div.sidebar ul ul {
+	margin: 0 0 20px 0;
+}
+
+div.comments ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+div.comments li {
+	position: relative;
+	clear: both;
+	overflow: hidden;
+	padding: 10px 0 10px 0;
+}
+
+
+/* Forms
+*******************************************************************************/
+div.comments form {
+		
+}
+
+div.comments form input.textbox {
+	border: 1px solid #7bb5ec;
+	width: 230px;
+	padding: 2px;
+}
+
+div.comments form textarea.textbox {
+	border: 1px solid #7bb5ec;
+	width: 476px;
+	height: 100px;
+	padding: 2px 0 2px 2px;
+}
+
+form input.button {
+	background-color: #164775;
+	color: #ffffff;
+	font-family: Verdana;
+	font-size: 85%;
+	font-weight: bold;
+	border: 2px outset #164775;
+	width: auto;
+	padding: 2px;
+}
