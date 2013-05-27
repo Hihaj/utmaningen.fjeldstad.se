@@ -15,7 +15,7 @@ Blir det tid över efter detta har jag ytterligare ett par smågrejer som legat 
 
 Där har jag en hel vecka! Även om det kan verka strängt att hungrigt kasta sig över varje frigjord dag med kalendern i högsta hugg så tror jag att det på ett väldigt tydligt och omedelbart sätt kommer att göra det lättare för mig att slappna av och (senare i sommar) ha en skön semester.
 
-<strong>Parentes:</strong> Jag sitter i skrivande stund på Espresso House på Vasagatan, vilket jag nog måste räkna som mitt favorit-Espresso House - mycket tack vare takhöjden, ljuset och de helt galet stora fönstren ut mot en gata där en ständig ström av människor passerar.
+**Parentes:** Jag sitter i skrivande stund på Espresso House på Vasagatan, vilket jag nog måste räkna som mitt favorit-Espresso House - mycket tack vare takhöjden, ljuset och de helt galet stora fönstren ut mot en gata där en ständig ström av människor passerar.
 
 <img class="size-full wp-image-222 " style="border: 0px initial initial;" title="espressohousevasagatan" src="http://utmaningen.fjeldstad.se/wp-content/uploads/2009/06/espressohousevasagatan.jpg" alt="Espresso House Vasagatan" width="500" height="375" />
 
